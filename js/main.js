@@ -52,7 +52,7 @@
     document.querySelector('meta[property="og:title"]').content = dictionary.meta.title;
     document.querySelector('meta[property="og:description"]').content = dictionary.meta.description;
     document.querySelector('meta[property="og:locale"]').content = dictionary.meta.ogLocale;
-    document.querySelector('meta[property="og:image"]').content = new URL("assets/images/profile-placeholder.svg", document.baseURI).href;
+    document.querySelector('meta[property="og:image"]').content = new URL("assets/images/profile-image.jpg", document.baseURI).href;
     document.querySelector("#current-year").textContent = String(new Date().getFullYear());
     languageToggle.setAttribute("aria-label", dictionary.languageToggleLabel);
     languageToggle.querySelectorAll("[aria-hidden='true']:not(.toggle-divider)").forEach((item) => {

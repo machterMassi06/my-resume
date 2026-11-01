@@ -28,7 +28,7 @@ jobs:
           test -f css/style.css
           test -f js/main.js
           test -f js/translations.js
-          test -f assets/images/profile-placeholder.svg
+          test -f assets/images/profile-image.jpg
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
